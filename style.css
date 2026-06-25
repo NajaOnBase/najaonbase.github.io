@@ -74,7 +74,7 @@ h2{
 .contract-box,
 .card,
 .phase{
-    background:#111;
+    background:red;
     border:1px solid #00ff88;
     border-radius:18px;
     padding:20px;
