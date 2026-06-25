@@ -76,17 +76,25 @@ h2{
 .phase{
     background:#111;
     border:1px solid #00ff88;
-    border-radius:15px;
-    padding:15px;
+    border-radius:18px;
+    padding:20px;
     margin:10px auto;
     max-width:500px;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(0,255,136,0.15);
+}
+
+.card:hover,
+.phase:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(0,255,136,0.35);
 }
 
 .cards{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:10px;
-    max-width:500px;
+    gap:15px;
+    max-width:700px;
     margin:auto;
 }
 
