@@ -333,18 +333,25 @@ nav{
     position:fixed;
     right:20px;
     bottom:20px;
-    width:50px;
-    height:50px;
-    border:none;
+    width:42px;
+    height:42px;
+    border:1px solid rgba(0,255,136,.35);
     border-radius:50%;
+    background:rgba(7,11,20,.8);
+    color:#00ff88;
+    font-size:20px;
+    cursor:pointer;
+    opacity:.55;
+    transition:.3s;
+    z-index:999;
+}
+
+#topBtn:hover{
+    opacity:1;
+    transform:translateY(-3px);
     background:#00ff88;
     color:#071018;
-    font-size:24px;
-    font-weight:bold;
-    cursor:pointer;
-    box-shadow:0 0 20px rgba(0,255,136,.4);
-    z-index:999;
-    }    
+}    
 </style>
 </head>
 
