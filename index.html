@@ -328,7 +328,23 @@ nav{
 .community .btn:hover{
     transform:translateY(-4px);
     box-shadow:0 0 35px rgba(0,255,136,.5);
-}   
+}
+#topBtn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#00ff88;
+    color:#071018;
+    font-size:24px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 0 20px rgba(0,255,136,.4);
+    z-index:999;
+    }    
 </style>
 </head>
 
@@ -686,7 +702,9 @@ Strike Fast. Stay Based.
 </p>
 
 </footer>
-
+<button id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+↑
+</button>
 </body>
   </html>
   
